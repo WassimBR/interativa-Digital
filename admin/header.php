@@ -108,7 +108,8 @@
 						<li class="nav-header hidden-tablet">Main</li>
 						<li><a class="ajax-link" href="index.php"><i class="icon-home"></i><span class="hidden-tablet"> Dashboard</span></a></li>
 				
-   						<li><a class="ajax-link" href="Post.php"><i class="icon-calendar"></i><span class="hidden-tablet"> posts</span></a></li>
+   						<li><a class="ajax-link" href="Post.php"><i class="icon-calendar"></i><span class="hidden-tablet"> Posts</span></a></li>
+                                                <li><a class="ajax-link" href="Comment.php"><i class="icon-comment"></i><span class="hidden-tablet"> Comments</span></a></li>
    						<li><a class="ajax-link" href="../index.html"><i class="icon-star"></i><span class="hidden-tablet"> Back </span></a></li>
 
 											</ul>

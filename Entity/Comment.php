@@ -8,9 +8,9 @@ private $email;
 private $message;
 private $ip;
 private $date;
+private $post;
 
-
-function __construct($Idcomment,$name,$email,$message,$ip,$date)
+function __construct($Idcomment,$name,$email,$message,$ip,$date,$post)
 {
 $this->Idcomment=$Idcomment;
 $this->name=$name;
@@ -18,6 +18,7 @@ $this->email =$email;
 $this->message =$message;
 $this->ip =$ip;
 $this->date =$date;
+$this->post =$post;
 }
 
 //debut get
@@ -44,7 +45,10 @@ $this->date =$date;
     function getDate() {
         return $this->date;
     }
-
+    
+    function getPost() {
+    return $this->post;
+    }
      //fin GEt
  
  
@@ -73,8 +77,11 @@ $this->date =$date;
      $this->date = $date;
  }
 
-  
- //fin SEt
+ function setPost($post) {
+     $this->post = $post;
+ }
+
+  //fin SEt
  
 }
 

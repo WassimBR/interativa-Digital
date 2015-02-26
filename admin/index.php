@@ -5,7 +5,7 @@ require_once("../Model/PostsModel.php");
 $PM=new PostsModel();
 $CM=new CommentModel();
 $i=$PM->RetournerNombrePosts();
-//$x=$PM->RetournerNombreComment();
+$x=$CM->RetournerNombreComment();
 include('header.php'); 
 
 ?>
